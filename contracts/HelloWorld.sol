@@ -13,7 +13,7 @@ contract HelloWorld {
 
     }
 
-    function say() public view returns (string memory) {
+    function say() view public  returns(string memory) {
         return greeting;
     }
 }
